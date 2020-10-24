@@ -1,3 +1,6 @@
+
+package com.book;
+
 public class Table implements Element {
     private String name;
 

@@ -1,3 +1,5 @@
+package com.book;
+
 public class Paragraph implements Element {
     private String text;
 

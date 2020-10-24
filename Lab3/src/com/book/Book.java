@@ -1,18 +1,22 @@
-import java.util.ArrayList;
-
-
+package com.book;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
-    private List<Chapter> chapters = new ArrayList<>();
-    private List<Author> authors = new ArrayList<>();
+    private List<Author> authors;
+    private List<Element> content;
     private TableOfContent tableOfContent;
     private String title;
 
     public Book(String title){
+        this.content = new ArrayList<>();
+        this.authors = new ArrayList<>();
         this.title = title;
+    }
+
+    public void addContent(Element e){
+        this.content.add(e);
     }
 
     public String getTitle() {
@@ -21,23 +25,6 @@ public class Book {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public int createChapter(String name){
-        chapters.add(new Chapter(name));
-        return chapters.size() - 1;
-    }
-
-    public Chapter getChapter(int index){
-        return chapters.get(index);
-    }
-
-    public void addChapter(Chapter chapter){
-        chapters.add(chapter);
-    }
-
-    public List<Chapter> getChapters(){
-        return chapters;
     }
 
     public List<Author> getAuthors() {
@@ -54,5 +41,18 @@ public class Book {
 
     public void setTableOfContent(TableOfContent tableOfContent) {
         this.tableOfContent = tableOfContent;
+    }
+
+    public void print(){
+        System.out.println("Book: " + title);
+        System.out.println("Authors: ");
+        for(Author a: authors){
+            System.out.println("Author: " + a.getName());
+        }
+        System.out.println();
+        for(Element e: content){
+            e.print();
+        }
+
     }
 }

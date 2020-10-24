@@ -1,3 +1,5 @@
+package com.book;
+
 public class Image implements Element {
     private String imageName;
 

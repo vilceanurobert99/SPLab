@@ -1,5 +1,6 @@
-public class Author {
+package com.book;
 
+public class Author {
     private String name;
 
     public Author(String name) {
@@ -13,6 +14,4 @@ public class Author {
     public void setName(String name) {
         this.name = name;
     }
-
-
 }
