@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ca6d4b-b96e-4206-86f3-cd47417bc4e2" name="Default Changelist" comment="" />
+    <list default="true" id="47ca6d4b-b96e-4206-86f3-cd47417bc4e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1jKgBkXY9wiILkTc1e1UgAjOvb4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="MyBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyBook" />
       <module name="Lab2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,7 +74,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603558064776</updated>
+      <workItem from="1603558065803" duration="431000" />
+      <workItem from="1603902994191" duration="139000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="94" key="#Project_Structure" timestamp="1603558072077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="516" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603558072077" />
+    <state x="816" y="275" key="FileChooserDialogImpl" timestamp="1603903127928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603903127928" />
+    <state width="1708" height="279" key="GridCell.Tab.0.bottom" timestamp="1603558496391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1708" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603558496391" />
+    <state width="1708" height="279" key="GridCell.Tab.0.center" timestamp="1603558496391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1708" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603558496391" />
+    <state width="1708" height="279" key="GridCell.Tab.0.left" timestamp="1603558496391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1708" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603558496391" />
+    <state width="1708" height="279" key="GridCell.Tab.0.right" timestamp="1603558496391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1708" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603558496391" />
+    <state x="627" y="140" key="new project wizard" timestamp="1603903138008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603903138008" />
   </component>
 </project>
